@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-color: blueviolet;
+}
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+
+}
+header ul li a{
+    color: fuchsia;
+}
+header a:hover{
+    color: black;
+}
+header p{
+    padding-left: 10px;
+}
+p{
+    text-align: justify;
+}
+.fotitos{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-size: cover;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.foto{
+    background-size: cover;
+}
+.foto1{
+    color: aqua;
+}
+.item{
+    width: 200px;
+    background-color: white;
+    border: 5px solid blueviolet;
+    font-size: 30px;
+}
+.flexeo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-evenly;
+}
+.contenedor{
+    border: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+}
+.uni{
+    background-color: blueviolet;
+    border: 5px solid blue;
+}
+.uni1{
+    background-image: url(../img/book.jpg);
+    background-size: cover;
+}
+.uni2{
+    background-image: url(../img/book.jpg);
+    background-size: cover;
+}
+.uni3{
+    background-image: url(../img/book.jpg);
+    background-size: cover;
+}
+.uni4{
+    overflow: scroll;
+}
+.uni5{
+    overflow: scroll;
+}
+.uni6{
+    overflow: scroll;
+}
+.vio1{
+    background-color: rgb(56, 9, 100);
+    color: white;
+}
+.lila1{
+    background-color:  rgb(176, 141, 209); 
+}
+#caja1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(img/orion-nebula.jpg);
+    background-attachment: fixed;
+}
+.boxm{
+    background-color: rgb(56, 9, 100);
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    border: 10px solid blueviolet;
+    border-style: double;
+}
+.pblanco{
+    color: white;
+}
